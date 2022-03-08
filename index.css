@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+h1{
+    color: rgb(22, 22, 22);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 20px;
+}
+p{ color: rgb(51, 50, 50) ;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+span a{
+      margin-right: 10px;
+      text-decoration: none;
+      color: rgb(31, 30, 30);  
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 5vw;
+}
+.over{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 5vw;
+}
+.true{
+    color: black;
+    background-color: azure;
+}
+button{ background-color: black;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    text-align: center;
+    /* margin-right: 25px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 10%;
+}
